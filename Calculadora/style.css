@@ -1,0 +1,86 @@
+/* Seletor Universal */
+* {
+    /* Remove o espaçamento padrão */
+    margin: 0;
+    /* Remove o espaçamento interno padrão */
+    padding: 0;
+}
+
+/* Estiliza elementos com a classe 'fundo' */
+.fundo {
+    /* Define um fundo gradiente linear em um ângulo de 45 graus */
+    background-image: linear-gradient(45deg, #3f5efb, #eeaeca);
+    /* Define a altura da janela de visualização como 100% */
+    height: 100vh;
+    /* Define cor do texto */
+    color: white;
+    /* Define a família da fonte */
+    font-family: Calculator Regular;
+    /* Alinha o conteúdo do texto ao centro. */
+    text-align: center; 
+}
+
+/* Estiliza elementos com a classe 'calculadora' */
+.calculadora {
+    /* Posiciona o elemento de forma absoluta */
+    position: absolute;
+    /* Define a cor de fundo com uma semi-transparência */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Posiciona ao centro da tela*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Arredonda os cantos */
+    border-radius: 15px;
+    /* Adiciona preenchimento ao redor */
+    padding: 15px;
+}
+
+/* Estiliza elementos com a classe 'botao' */
+.botao {
+    /* Define a largura e a altura */
+    width: 50px;
+    height: 50px;
+    /* Define o tamanho da fonte */
+    font-size: 25px;
+    /* Altera o cursor do mouse */
+    cursor: pointer;
+    /* Adiciona margem ao redor */
+    margin: 3px;
+    /* Define a cor de fundo */
+    background-color: rgb(31,31,31);
+    /* Remove a borda padrão */
+    border: none;
+    /* Arredonda os cantos */
+    border-radius: 15px;
+    /* Define a família da fonte */
+    font-family: Calculator Regular;
+    /* Define cor do texto */
+    color: white;
+}
+
+/* Estiliza elementos com a classe 'botao' quando o mouse é passado ​​sobre eles */
+.botao:hover {
+    background-color: black;
+}
+
+/* Estiliza o elemento com o ID 'resultado' */
+#resultado {
+    /* Define a largura e a altura */
+    width: 207px;
+    height: 80px;
+    /* Adiciona margem ao redor */
+    margin: 5px;
+    /* Define o tamanho da fonte */
+    font-size: 25px;
+    /* Define cor do texto */
+    color: black;
+    /* Alinha o texto à direita */
+    text-align: right;
+    /* Adiciona preenchimento ao redor */
+    padding: 5px;
+    /* Define a cor de fundo */
+    background-color: white;
+    /* Arredonda os cantos */
+    border-radius: 10px;
+}
