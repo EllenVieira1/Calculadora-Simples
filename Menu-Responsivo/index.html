@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="img/coder.png" type="image/x-icon">
+    <title>Menu Responsivo</title>
+</head>
+<body>
+    <header>
+        <!-- Menu -->
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="img/coder.png" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+            <!-- Icon menu -->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu.png" alt=""></button>
+            </div>
+        </nav>
+        <!-- Menu Mobile -->
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+    <!-- Link js -->
+    <script src="script.js"></script>
+</body>
+</html>
